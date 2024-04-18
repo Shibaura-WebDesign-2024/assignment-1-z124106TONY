@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Black Goose Bistro</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <h1>
+                <img src="goose.png" alt="logo"><br>Black Goose Bistro
+            </h1>
+
+            <div class="content">
+                <h2>The Restaurant</h2>
+                <p>The Black Goose Bistro offers casual lunch and
+                    dinner fare in a relaxed atmosphere. The menu changes
+                    regularly to highlight the freshest local
+                    ingredients.
+                </p>
+
+                <h2>Catering</h2>
+                <p>You have fun. <em>We'll handle the cooking.</em>
+                    Black Goose Catering can handle events from snacks
+                    for a meetup to elegant corporate fundraisers.
+                </p>
+
+                <br>
+                <p style="margin: 0 8px 0 8px;">Location and Hours</p>
+                <p style="margin: 0 8px 0 8px;">Seekonk, Massachusetts;</p>
+                <p style="margin: 0 8px 0 8px;">Monday through Thursday 11am to 9pm; Friday and Saturday, 11am to midnight</p>
+            </div>
+        </div>
+    </body>
+
+</html>
+
+<style>
+    body {
+        background-color: aqua;
+        font-family: sans-serif;
+    }
+
+    .wrapper {
+        width: 100%;
+
+        margin: 28px 16px 28px 16px;
+    }
+
+    .content {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: center;
+
+        padding-top: 16px;
+    }
+
+    h1 {
+        width: 100%;
+        
+        text-align: center;
+        font-family: serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-bottom: 1px solid #000000;
+
+        margin: 0;
+    }
+
+    h2 {
+        text-align: left;
+        color: rgb(44, 125, 196);
+
+        margin: 8px;
+    }
+
+    p {
+        margin: 8px;
+    }
+
+    img {
+        max-width: 400px;
+        object-fit: cover;
+    }
+</style>
